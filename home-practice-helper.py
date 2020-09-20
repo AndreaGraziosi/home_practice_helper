@@ -26,7 +26,7 @@ print("Namaste. Sit quietly in a comfortable position and chant om 3 times, noti
 
 print ("Let me help you get started with some ideas for poses today. You can type: forward bends, back bends, standing poses, inversions...")
 
-
+#loop and done to break the loop
 
 while True:
  user_response = input("Enter the type of pose you would like to practice, and I can suggest a sequence! Om ")
