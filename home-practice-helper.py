@@ -21,7 +21,7 @@ def get_bot_response(user_response):
     return choice(bot_response_week_4)    
  else:
     return "For help with that pose, you should come to class! Let's practice together!"   
-
+#opening message and instructions
 print("Namaste. Sit quietly in a comfortable position and chant om 3 times, notice the effect on your body.")
 
 print ("Let me help you get started with some ideas for poses today. You can type: forward bends, back bends, standing poses, inversions...")
@@ -33,6 +33,6 @@ while True:
  if user_response == "done":
   break
 
-
+#input passing user info to bo_response
  bot_response = get_bot_response(user_response)
  print(bot_response)
